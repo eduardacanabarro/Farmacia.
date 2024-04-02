@@ -1,0 +1,65 @@
+{
+  "Clientes": [
+    {
+      "id": 23,
+      "nome": "dada",
+      "endereco": "dada",
+      "email": "dada",
+      "telefone": "333"
+    }
+  ],
+  "Fornecedores": [
+    {
+      "id": 237,
+      "nome": "feliperemedios",
+      "endereco": "sao leopoldo",
+      "telefone": 999999988
+    },
+    {
+      "id": 190,
+      "nome": "farmaamanda",
+      "endereco": "RS",
+      "telefone": 333312333
+    },
+    {
+      "id": 3,
+      "nome": "asdfadsf",
+      "endereco": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "telefone": "2"
+    }
+  ],
+  "Medicamentos": [
+    {
+      "id": 273,
+      "nome": "ass",
+      "fabricante": "farmaamanda",
+      "quantidade": 34
+    }
+  ],
+  "Vendas": [
+    {
+      "id": 282,
+      "data": 120523,
+      "idMedicamento": 272,
+      "idCliente": 23
+    },
+    {
+      "id": 82,
+      "data": 180523,
+      "idMedicamento": 272,
+      "idCliente": 90
+    },
+    {
+      "id": 3,
+      "data": "101010",
+      "idMedicamento": "2",
+      "idCliente": "2"
+    },
+    {
+      "id": 4,
+      "data": "123123",
+      "idMedicamento": 123117,
+      "idCliente": 12228
+    }
+  ]
+}

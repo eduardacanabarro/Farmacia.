@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <script src="scriptfornecedores.js" defer></script>
+    <title>Frontend da API de Usuários</title>
+</head>
+<body>
+    <header>
+        <a class="button" href="index.html">Clientes</a>
+        <a class="button" href="fornecedores.html">Fornecedores</a>
+        <a class="button" href="medicamentos.html">Medicamentos</a>
+        <a class="button" href="vendas.html">Vendas</a>
+    </header>
+        <h1>𝒞𝑎𝑑𝑎𝑠𝑡𝑟𝑜 𝑑𝑒 𝐹𝑜𝑟𝑛𝑒𝑐𝑒𝑑𝑜𝑟𝑒𝑠</h1>
+        
+        <form id="fornecedor-form">
+            <label for="nome"> Nome: </label>
+            <input type="text" id="nome" required>
+            
+            <label for="endereco"> Endereço: </label>
+            <input type="text" id="endereco" required>
+            
+            <label for="telefone"> Telefone: </label>
+            <input type="number" id="telefone" required>
+            
+           
+
+            <button type="submit" class="buttoon"> Cadastrar Fornecedor </button>
+            <button type="button" class="buttoon" onclick="deletefornecedor()">Deletar</button>
+            <button type="button" class="buttoon" onclick="putfornecedor()">Editar</button>
+        </form>
+        
+        <h1> 𝐿𝑖𝑠𝑡𝑎 𝑑𝑒 𝐹𝑜𝑟𝑛𝑒𝑐𝑒𝑑𝑜𝑟𝑒𝑠</h1>
+        <ul id="fornecedor-list"></ul>
+</body>
+</html>

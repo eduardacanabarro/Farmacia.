@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Frontend da api </title>
+</head>
+<body>
+    <header>
+        <a class="button" href="index.html">Clientes</a>
+        <a class="button" href="fornecedores.html">Fornecedores</a>
+        <a class="button" href="medicamentos.html">Medicamentos</a>
+        <a class="button" href="vendas.html">Vendas</a>
+    </header>
+        <h1>𝒞𝑎𝑑𝑎𝑠𝑡𝑟𝑜 𝑑𝑒 𝒱𝑒𝑛𝑑𝑎𝑠</h1>
+        
+        <form id="venda-form">
+            <label for="date"> Data: </label>
+            <input type="text" id="date" required>
+
+            <label for="id_medicamento"> Id do Medicamento: </label>
+            <input type="number" id="id_medicamento" required>
+
+            <label for="id_cliente"> Id do Cliente: </label>
+            <input type="number" id="id_cliente" required>
+
+            <button type="submit" class="buttoon"> Cadastrar Fornecedor </button>
+            <button type="button" class="buttoon" onclick="deletefornecedor()">Deletar</button>
+            <button type="button" class="buttoon" onclick="putfornecedor()">Editar</button>
+        </form>
+        
+        <h1> 𝐿𝑖𝑠𝑡𝑎 𝑑𝑒 𝒱𝑒𝑛𝑑𝑎𝑠</h1>
+        <ul id="venda-list"></ul>
+        <script src="scriptvendas.js"></script>
+</body>
+</html>

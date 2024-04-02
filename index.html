@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Frontend da API de Usuários</title>
+</head>
+<body>
+    <header>
+        <a class="button" href="index.html">Clientes</a>
+        <a class="button" href="fornecedores.html">Fornecedores</a>
+        <a class="button" href="medicamentos.html">Medicamentos</a>
+        <a class="button" href="vendas.html">Vendas</a>
+    </header>
+        <h1>𝒞𝑎𝑑𝑎𝑠𝑡𝑟𝑜 𝑑𝑒 𝒞𝑙𝑖𝑒𝑛𝑡𝑒𝑠</h1>
+        
+        <form id="cliente-form">
+            <label for="nome"> Nome: </label>
+            <input type="text" id="nome" required>
+            
+            <label for="email"> E-mail: </label>
+            <input type="text" id="email" required>
+
+            <label for="endereco"> Endereço: </label>
+            <input type="text" id="endereco" required>
+            
+            <label for="phone"> Telefone: </label>
+            <input type="number" id="phone" required>
+            
+            <button type="submit" class="buttoon"> Cadastrar Fornecedor </button>
+            <button type="button" class="buttoon" onclick="deletefornecedor()">Deletar</button>
+            <button type="button" class="buttoon" onclick="putfornecedor()">Editar</button>
+        </form>
+        
+        <h1> 𝐿𝑖𝑠𝑡𝑎 𝑑𝑒 𝒞𝑙𝑖𝑒𝑛𝑡𝑒𝑠</h1>
+        <ul id="cliente-list"></ul>
+        <script src="scriptclientes.js"></script>
+</body>
+</html>
